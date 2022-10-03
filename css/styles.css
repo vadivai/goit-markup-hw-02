@@ -1,0 +1,212 @@
+:root {
+--primary-text-color: #212121;
+--text-color: #757575;
+--accent-color: #2196F3;
+--primary-white-color: #ffffff;
+}
+
+body {
+    color: var(--primary-text-color);
+    background-color: var(--primary-white-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+.accent {
+    color: var(--accent-color);
+}
+
+/* Cторінка Студія */
+
+/* Хедер */
+.logo {
+    color: #000000;
+
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.site-nav a {
+    color: var(--primary-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.footer.link:hover,
+.footer.link:focus,
+.site-contacts .link:hover,
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+.site-contacts .link {
+    color: var(--text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+/* Hero */
+.hero {
+    background-color: #2F303A;
+    text-align: center;
+}
+.hero-title {
+    color: var(--primary-white-color);
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+/* Секції Переваги, Чим займаємося, Наша команда */
+
+.section-title {
+    color: var(--primary-text-color);
+}
+.section-text {
+    color: var(--text-color);
+}
+
+.section-benefits {
+    background-color: var(--primary-white-color);
+}
+.section-benefits.title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.section-benefits.text {
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.section-work {
+    background-color: var(--primary-white-color);
+}
+
+.section-work.title, 
+.section-team.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.section-team {
+    background-color: #F5F4FA;
+}
+
+/* добавлю, когда будем позиционировать, сейчас перебивает серый цвет фона
+.section-team.list { */
+/* background-color: var(--primary-white-color); */
+/* }  */
+
+
+/* Футер */
+.footer {
+    color: var(--primary-white-color);
+    background-color: #2F303A;
+    text-align: left;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+
+}
+
+
+.footer .logo {
+    color: var(--primary-white-color);
+    
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.footer.link {
+    color: rgba(255,255,255,0.6);
+}
+
+address {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+/* Button */
+.button {
+    font-family: inherit;
+    /* разобраться почему такое значение */
+}
+
+.hero .button.primary {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    
+    /* display: flex; почему выравнивается по левому краю, а не посредине?*/
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+/* Стили для portfolio.html */
+
+.button-portfolio {
+    color: var(--primary-text-color);
+    background-color: #F5F4FA;
+    border: none;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+    color: #F5F4FA;
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+
+.portfolio.title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+
+    letter-spacing: 0.06em;
+}
+
+.portfolio.text {
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.88;
+
+}
